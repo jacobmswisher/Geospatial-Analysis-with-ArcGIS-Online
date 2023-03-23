@@ -128,12 +128,18 @@ To join information from the join feature class to the target feature class, the
     <th>Description</th>
   </tr>
   <tr>
-    <td align="center"></td>
-    <td></td>
+    <td align="center">Intersect</td>
+    <td>Appends information when a feature in the join feature class overlaps a feature in the target feature class.</td>
+  </tr>
+  <tr>
+    <td align="center">Completely Within</td>
+    <td>Appends information when a feature in the target feature class is completely inside the geometry of a feature in the join feature class.</td>
+  </tr>
+  <tr>
+    <td align="center">Within a Distance Of</td>
+    <td>Appends information with a feature in the target feature class is within a defined distance of a feature in the join feature class.</td>
+  </tr>
 </table>
-1. Intersects (appends information when a feature in the join feature class overlaps a feature in the target feature class)
-2. Completely Within (appends information when a feature in the target feature class is completely inside the geometry of a feature in the join feature class)
-3. Within a Distance Of (appends information with a feature in the target feature class is within a defined distance of a feature in the join feature class)
 
 For example, an analyst could identify all federal campgrounds in Montana by joining a feature class with state of Montana to a feature class containing all federal campgrounds. Doing so would attach the information from the feature representing Montana to all features in Campgrounds that have a spatial relationship of being completely within the feature representing Montana.
 
