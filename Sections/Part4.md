@@ -113,7 +113,7 @@ Using the Campgrounds feature layer and the 2022 Visitor Data table, create a ma
 
 *Hint: after completing a table join, new options for the output feature layer will appear in the styles tool that will help you to complete this task.*
 
-If needed, you can find a sample workflow to solve this problem [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#table-join-practice-problem).
+If needed, view a [sample workflow](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#table-join-practice-problem) to solve this problem.
 
 ## Operation 2: Spatial Join
 
@@ -198,6 +198,6 @@ Congratulations! You have successfully completed a spatial join using ArcGIS Onl
 
 Using the Campgrounds feature layer and the Administrative Forest Boundaries feature layer, create a map that displays all federal campgrounds and helps the viewer identify which United States Forest Service Region each campground is located in.
 
-If needed, you can find a sample workflow to solve this problem [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#spatial-join-practice-problem).
+If needed, view a [sample workflow](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#spatial-join-practice-problem) to solve this problem.
 
 [<<< Previous](Part3.md) | [Next >>>](Part5.md)  
