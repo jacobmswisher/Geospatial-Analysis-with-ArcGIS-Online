@@ -36,7 +36,7 @@ To get started, begin by adding the South Bend feature class to a new map using 
 You can access buffer and other operations for geospatial analysis in the analysis tab of the Map View Classic. Begin by clicking on the analysis tab.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%209.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/637f9d324c474b02c48eaf494540a5ee94fe127c/Sections/Images/Figure%209.jpg">
 </p>
 
 Then, navigate to the Use Proximity section of the analysis tab and select Create Buffers.
