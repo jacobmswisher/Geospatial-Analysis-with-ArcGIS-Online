@@ -312,7 +312,7 @@ To use overlay layers, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Overlay Method</td>
-    <td>Defines how features in the intput layer are transformed.<br><br>There are three overlay methods available in ArcGIS Online:<br>   1. Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>   2. Erase: creates a layer containing only features (or portions of features) that <b>do not</b> overlap with the overlay layer.<br>   3. Union: creates a layer containing features that are combinations of overlapping features in the input and overlay layers.</td>
+    <td>Defines how features in the intput layer are transformed.<br><br>There are three overlay methods available in ArcGIS Online:<br>&ensp;1. Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>&ensp;2. Erase: creates a layer containing only features (or portions of features) that <b>do not</b> overlap with the overlay layer.<br>&ensp;3. Union: creates a layer containing features that are combinations of overlapping features in the input and overlay layers.</td>
   </tr>
   <tr>
     <td align="center">Result Layer Name</td>
