@@ -32,8 +32,6 @@ To further explore or troubleshoot issues in ArcGIS Online, consider taking adva
 
 ### Practicum
 
-<p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/eddf77a914f30d3b970f3dfb21c962a3f10fdc65/Sections/Images/Figure%2045.jpg">
-</p>
+This workflow is larger and can be viewed with a scrollbar [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/eddf77a914f30d3b970f3dfb21c962a3f10fdc65/Sections/Images/Figure%2045.jpg).
 
 [<<< Previous](Part5.md)
