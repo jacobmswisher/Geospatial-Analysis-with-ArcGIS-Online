@@ -308,15 +308,15 @@ To use overlay layers, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Overlay Layer</td>
-    <td>This is the layer that provides the feautres used to determine what happens to overlapping features from the input layer based on the overlay method.</td>
+    <td>This is the layer used to determine what happens to features from the input layer based on (1) the overlay method and (2) how the input layer features overlap with features in the overlay layer.</td>
   </tr>
   <tr>
     <td align="center">Overlay Method</td>
-    <td>Defines how features in the intput layer are transformed.<br>There are three overlay methods available in ArcGIS Online:<br>1. Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>2. Erase: creates a layer containing only features (or portions of features) that <b>do not<b> overlap with the overlay layer.<br>3. Union: Creates a layer containing features that are combinations of overlapping features in the input and overlay layers.</td>
+    <td>Defines how features in the intput layer are transformed.<br><br>There are three overlay methods available in ArcGIS Online:<br>   1. Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>   2. Erase: creates a layer containing only features (or portions of features) that <b>do not</b> overlap with the overlay layer.<br>   3. Union: creates a layer containing features that are combinations of overlapping features in the input and overlay layers.</td>
   </tr>
   <tr>
-    <td align="center">Output (Result) Layer Name</td>
-    <td>the name of the new feature layer containing the features created through the overlay.</td>
+    <td align="center">Result Layer Name</td>
+    <td>The name of the new feature layer containing the features created through the overlay.</td>
   </tr>
 </table>
 
