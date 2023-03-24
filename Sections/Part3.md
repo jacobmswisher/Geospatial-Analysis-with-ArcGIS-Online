@@ -72,7 +72,7 @@ In the case of the create buffers tool, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Output (Result) Layer Name</td>
-    <td">The name of the new feature class containing polygons representing the buffers.</td>
+    <td>The name of the new feature class containing polygons representing the buffers.</td>
   </tr>
 </table>
 
