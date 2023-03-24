@@ -308,15 +308,15 @@ To use overlay layers, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Overlay Layer</td>
-    <td>This is the layer used to determine what happens to features from the input layer based on (1) the overlay method and (2) how the input layer features overlap with features in the overlay layer.</td>
+    <td>This is the layer used to determine what happens to features from the input layer based on <b>(1)</b> the overlay method and <b>(2)</b> how the input layer features overlap with features in the overlay layer.</td>
   </tr>
   <tr>
     <td align="center">Overlay Method</td>
     <td>Defines how features in the intput layer are transformed.<br><br>There are three overlay methods available in ArcGIS Online:<br>
       <ol>
-        <li>1. Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>
-        <li>2. Erase: creates a layer containing only features (or portions of features) that <b>do not</b> overlap with the overlay layer.
-        <li>3. Union: creates a layer containing features that are combinations of overlapping features in the input and overlay layers.
+        <li>Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>
+        <li>Erase: creates a layer containing only features (or portions of features) that <b>do not</b> overlap with the overlay layer.
+        <li>Union: creates a layer containing features that are combinations of overlapping features in the input and overlay layers.
       </ol>
      </td>
   </tr>
@@ -348,13 +348,13 @@ Your output should look like this:
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2031.jpg">
 </p>
 
-**Note: You can create this output using the clip features setting in the extract data tool. However, using the overlay layers tool saves time as you do not have to download an output shapefile and manually create a new feature layer.**
+**Note: You can also create this output using the clip features setting in the extract data tool. However, using the overlay layers tool saves time as you do not have to download an output shapefile and manually create a new feature layer.**
 
 ## Practice Scenario
 
-Congratulations! You now know how to use three core operations that are part of the geospatial analyst's toolkit. Time to put your new skills into practice!
+Congratulations! You now know how to use three common operations in the the geospatial analyst's toolkit. Time to put your new skills into practice!
 
-**Problem:** Using the Campgrounds and National_Park_Boundaries feature layers that you created during Part 2: Data Preperation, determine how many campgrounds are within 50 miles of Yellowstone National Park.
+**Problem:** Using the Campgrounds and National Park Boundaries feature layers that you created during Part 2: Data Preperation, determine how many campgrounds are within 50 miles of Yellowstone National Park.
 
 *Hint: The attribute table can help you to quickly determine the number of features in a feature class.*
 
