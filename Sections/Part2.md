@@ -24,7 +24,7 @@ If you need a refresher on uploading data to ArcGIS Online, please consult [the 
 **Note: You will need to instruct ArcGIS Online on how you want to import the csv files for this workshop because csv files can be used to create feature layers with point geometry. All csv files for this workshop are intended to be used as tables. To import each csv as a table, select the following option during the location settings configuration step of the new item creation process in the content tab:**
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/b3de90fd2c76d7b41e8d7b1c16dbea2dd9a599ba/Sections/Images/Figure%206.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/b2932ea1054597cf0ec6b9c6ded74176f1f4e97c/Sections/Images/Figure%206.jpg">
 </p>
 
 [<<< Previous](Part1.md) | [Next >>>](Part3.md)  
