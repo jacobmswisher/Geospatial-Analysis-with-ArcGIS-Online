@@ -6,7 +6,7 @@ Before you learn more about how to conduct geospatial analysis in ArcGIS Online,
 
 ## Step 1: Import Data into ArcGIS Online
 
-For this workshop, you will need to import the following feature classes and tables into ArcGIS Online, available for download [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online-Draft/raw/main/Geospatial%20Analysis%20Workshop%20Data.zip):
+For this workshop, you will need to import the following feature classes and tables into ArcGIS Online, available for download [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/raw/main/Geospatial%20Analysis%20Workshop%20Data.zip):
 1. 2022_Visitor_Data.csv
 2. Administrative_Forest_Boundaries.shp
 3. Campgrounds.shp
