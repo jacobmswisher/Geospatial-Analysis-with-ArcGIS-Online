@@ -38,7 +38,7 @@ Then, the analyst could look at the attribute table for the new feature class an
 
 The process outlined above is what GIS analysts refer to as a **workflow**.
 
-**Workflow - a planned, multistep sequence that combines data and operations to solve answer a question.**
+**Workflow - a planned, multi-step sequence that combines data and operations to solve answer a question.**
 
 In this case, the workflow for determining how many wells are within 50 miles of Colorado Springs looked like this:
 
