@@ -45,7 +45,7 @@ The process outlined above is what GIS analysts refer to as a **workflow**.
 In this case, the workflow for determining how many wells are within 50 miles of Colorado Springs looked like this:
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/a2fe5a2cc7cad08bc9a262621dca13a9f1a0ad60/Sections/Images/Figure%204.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/cdbba3914a79d389114fd771bf00dfcf37012e3b/Sections/Images/Figure%204.jpg">
 </p>
 
 However, another analyst might have solved the problem using an alternative workflow, such as this one:
