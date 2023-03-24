@@ -173,7 +173,7 @@ To use extract data, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Study Area</td>
-    <td>Extract data will only extract features within the study area. When using the filters method set the study area to be the same as the input layer.<br><br><b>Note: you will almost always use the select features setting in defining the study area parameters (more on why analysts avoid using clip features below in the Overlay Layers section of the  workshop).<b></td>
+    <td>Extract data will only extract features within the study area.<br><br>When using the filters method set the study area to be the same as the input layer.<br><br><b>Note: you will almost always use the select features setting in defining the study area parameters (more on why analysts avoid using clip features below in the Overlay Layers section of the  workshop).<b></td>
   </tr>
   <tr>
     <td align="center">Output Data Format</td>
