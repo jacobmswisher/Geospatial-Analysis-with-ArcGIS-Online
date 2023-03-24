@@ -358,6 +358,6 @@ Congratulations! You now know how to use three common operations in the the geos
 
 *Hint: The attribute table can help you to quickly determine the number of features in a feature class.*
 
-If needed, you can find a sample workflow to solve this problem [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#vector-data-practice-problem).
+If needed, view a [sample workflow](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#vector-data-practice-problem) to solve this problem.
 
 [<<< Previous](Part2.md) | [Next >>>](Part4.md)  
