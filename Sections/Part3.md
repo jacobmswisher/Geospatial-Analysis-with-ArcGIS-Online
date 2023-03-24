@@ -64,15 +64,15 @@ In the case of the create buffers tool, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Input Layer</td>
-    <td align="center">The feature class from which ArcGIS Online will create the buffers.</td>
+    <td>The feature class from which ArcGIS Online will create the buffers.</td>
   </tr>
   <tr>
     <td align="center">Buffer Size</td>
-    <td align="center">The distance that will be used to measure the space in between the features in the input layer the outer edge of each buffer.</td>
+    <td>The distance that will be used to measure the space in between the features in the input layer the outer edge of each buffer.</td>
   </tr>
   <tr>
     <td align="center">Output (Result) Layer Name</td>
-    <td align="center">The name of the new feature class containing polygons representing the buffers.</td>
+    <td">The name of the new feature class containing polygons representing the buffers.</td>
   </tr>
 </table>
 
