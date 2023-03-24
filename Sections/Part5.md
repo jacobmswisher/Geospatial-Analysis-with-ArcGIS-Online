@@ -2,9 +2,9 @@
 
 # Part 5: Practicum
 
-Now that you have learned how to conduct a few basic operations with vector data and create joins using ArcGIS Online, it's time to put your new skills into practice in the following scenario.
+Now that you have learned how to conduct a few basic operations with vector data and know how to create joins using ArcGIS Online, it's time to put your new skills into practice in the following scenario.
 
-To complete the tasks below, you will need to use the following datasets that you uploaded to ArcGIS Online at the beginning of this workshop:
+To complete the task below, you will need to use the following datasets that you uploaded to ArcGIS Online at the beginning of this workshop:
 1. Indiana_Counties.shp
 2. Indiana_Roads.shp
 3. Possible_Restaurant_Sites.shp
@@ -18,5 +18,7 @@ You are a GIS specialist who has contracted with a local restaurateur who is try
 2. Site not within 3 miles of a major highway
 
 Additionally, the business partners will want to know which county each site is in so that they can assess the tax implications of opening a new restaurant for each possible site. The restaurateur would like the map you create of possible sites to symbolize (color) each site based on the county in which it is located.
+
+If needed, you can find a sample workflow to solve this problem [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#practicum).
 
 [<<< Previous](Part4.md) | [Next >>>](Part6.md)
