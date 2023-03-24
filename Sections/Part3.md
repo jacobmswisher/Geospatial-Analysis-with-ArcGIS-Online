@@ -42,7 +42,7 @@ You can access buffer and other operations for geospatial analysis in the analys
 Then, navigate to the Use Proximity section of the analysis tab and select Create Buffers.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2010.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2010.jpg">
 </p>
 
 Whenever you use an analysis tool to perform an operation in ArcGIS Online, the platform will ask you to define a series of **parameters** that provide instructions for the operation.
@@ -52,7 +52,7 @@ Whenever you use an analysis tool to perform an operation in ArcGIS Online, the 
 ArcGIS Online will ask you to define parameters in a series of steps laid out in a pane on the left-hand side of your browser. For example, the options to set parameters for the create buffers tool look like this:
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2011.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2011.jpg">
 </p>
 
 In the case of the create buffers tool, you will need to set parameters for:
@@ -81,7 +81,7 @@ In the case of the create buffers tool, you will need to set parameters for:
 Adjust the parameters for the create buffers tool as needed to instruct ArcGIS Online to create a 100-mile buffer around the point representing the city of South Bend.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2012.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2012.jpg">
 </p>
 
 **Note: When buffering a feature class with polygon geometry, you also have access to the include and exclude options. Selecting exclude is helpful when you want to create a buffer that does not contain the area of an input feature.**
@@ -95,7 +95,7 @@ Adjust the parameters for the create buffers tool as needed to instruct ArcGIS O
 After defining the parameters to create the 100-mile buffer from the South Bend feature class, click the run analysis button.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2014.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2014.jpg">
 </p>
 
 ### Step 4: Examine the Output Feature Class
@@ -143,7 +143,7 @@ Configure a filter that will select Indiana from the State_Boundaries feature cl
 **If you need a refresher on how filters work in ArcGIS Online, head [here](https://github.com/jacobmswisher/Mapping-with-ArcGIS-Online/blob/main/Sections/Part5.md)**
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2018.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2018.jpg">
 </p>
 
 After filtering State_Boundaries for Indiana, your map viewer should look like this:
@@ -157,7 +157,7 @@ After filtering State_Boundaries for Indiana, your map viewer should look like t
 Now that you have filtered State_Boundaries to select the feature representing Indiana, head to the analysis tab and select the extract data tool under the manage data section of the tab.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2020.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2020.jpg">
 </p>
 
 To use extract data, you will need to set parameters for:
@@ -188,7 +188,7 @@ To use extract data, you will need to set parameters for:
 To create a feature class containing the state of Indiana, adjust the parameters for the extract data tool to instruct ArcGIS Online to extract all features from State_Boundaries that are within a study area defined by State_Boundaries. Output the new feature class in the format of a shapefile.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2021.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2021.jpg">
 </p>
 
 ### Step 4: Extract Data
@@ -196,7 +196,7 @@ To create a feature class containing the state of Indiana, adjust the parameters
 After defining the parameters to extract Indiana from the State_Boundaries feature class, click the run analysis button.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2022.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2022.jpg">
 </p>
 
 ### Step 5: Upload Output Feature Class to ArcGIS Online
@@ -248,7 +248,7 @@ In this case, we want to extract the states from State_Boundaries that are withi
 Adjust the parameters for the extract data tool as needed to create a new feature class containing the states that are within 100 miles of South Bend.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2026.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2026.jpg">
 </p>
 
 **Note: Employ the select features option here. Using clip features will extract *only* the portions of the states that are within the buffer area rather than extracting the entire feature representing each state. In the remainder of the workshop, you will learn how to accomplish this task using the Overlay Layers tool which is the preferred method for this operation.**
@@ -292,7 +292,7 @@ To get started, add the feature classes you created representing Indiana and the
 Then, navigate to the overlay layers tool in the analysis tab. 
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2029.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2029.jpg">
 </p>
 
 To use overlay layers, you will need to set parameters for:
@@ -325,7 +325,7 @@ Configure the parameters in order to create a polygon representing the part of I
 *Check for understanding: can you explain why you used intersect instead of erase or union?*
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2030.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2030.jpg">
 </p>
 
 ### Step 3: Overlay Layers
