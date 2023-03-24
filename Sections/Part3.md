@@ -114,7 +114,7 @@ In this section, you will learn how to exract data using two methods:
 1. By extracting features based on information in the attribute table with the help of the filters tool.
 2. By extracting features based on a spatial relationship between the input feature class and a second feature class.
 
-## Method 1: Extract Data with Filters
+## - Method 1: Extract Data with Filters
 
 Extracting data with the help of the filters tool uses the following workflow:
 
@@ -223,7 +223,7 @@ After creating a new feature layer from the downloaded shapefile, add the new fe
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2024.jpg">
 </p>
 
-## Method 2: Extract Data with Spatial Relationships
+## - Method 2: Extract Data with Spatial Relationships
 
 Extract data can also be used to extract features from an input feature class based on a spatial relationship defined defined through parameters.
 
