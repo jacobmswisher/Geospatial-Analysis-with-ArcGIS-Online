@@ -85,15 +85,17 @@ When using the join features tool, you will need to set parameters for:
   </tr>
 </table>
 
-To join Campgrounds_Agency_Information to Campgrounds, configure the parameters for join features so that Campground_Agency_Information is joined to Campgrounds using a one-to-one table join. In this case, the key field for the table join is the name of each site in Campgrounds. **Zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
+To join Campgrounds Agency Information to Campgrounds, configure the parameters for join features so that Campground Agency Information is joined to Campgrounds using a one-to-one table join. In this case, the key field for the table join is the name of each site in Campgrounds. 
+
+**Remember to zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/774f02f5e1f623ab221ae4089066e81362dfb5db/Sections/Images/Figure%2035.jpg">
 </p>
 
-### Step 3: Join Campgrounds_Agency_Information to Campgrounds
+### Step 3: Join Campgrounds Agency Information to Campgrounds
 
-After configuring the parameters for the join layers tool, click the run analysis button to join Camground_Agency_Information to Campgrounds.
+After configuring the parameters for the join layers tool, click the run analysis button to join Camground Agency Information to Campgrounds.
 
 ### Step 4: Examine the Output Feature Class
 
@@ -110,6 +112,8 @@ Congratulations! You have successfully completed a table join using ArcGIS Onlin
 Using the Campgrounds feature layer and the 2022 Visitor Data table, create a map that displays federal campgrounds and helps the viewer distinguish which campgrounds are more visited than others.
 
 *Hint: after completing a table join, new options for the output feature layer will appear in the styles tool that will help you to complete this task.*
+
+If needed, you can find a sample workflow to solve this problem [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#table-join-practice-problem).
 
 ## Operation 2: Spatial Join
 
@@ -129,15 +133,15 @@ To join information from the join feature class to the target feature class, the
   </tr>
   <tr>
     <td align="center">Intersect</td>
-    <td>Appends information when a feature in the join feature class overlaps a feature in the target feature class.</td>
+    <td>Appends information when a feature in the join feature class <b>overlaps</b> a feature in the target feature class.</td>
   </tr>
   <tr>
     <td align="center">Completely Within</td>
-    <td>Appends information when a feature in the target feature class is completely inside the geometry of a feature in the join feature class.</td>
+    <td>Appends information when a feature in the target feature class is <b>completely inside</b> the geometry of a feature in the join feature class.</td>
   </tr>
   <tr>
     <td align="center">Within a Distance Of</td>
-    <td>Appends information with a feature in the target feature class is within a defined distance of a feature in the join feature class.</td>
+    <td>Appends information when a feature in the target feature class is <b>within a defined distance</b> of a feature in the join feature class.</td>
   </tr>
 </table>
 
@@ -147,13 +151,13 @@ For example, an analyst could identify all federal campgrounds in Montana by joi
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2038.jpg">
 </p>
 
-In this case, the join features tool would use a spatial relationship to append the information for the feature representing Montana to **every* point feature in the campgrounds feature class that intersects with the feature representing Montana. The result would allow the analyst to create a map showing which campgrounds are in Montana.
+In this case, the join features tool would use a spatial relationship to append the information for the feature representing Montana to **every** point feature in the campgrounds feature class that intersects with the feature representing Montana. The result would allow the analyst to create a map showing which campgrounds are in Montana.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2039.jpg">
 </p>
 
-To see how spatial joins work in ArcGIS Online, you'll practice by joining the information from State Boundaries to Campgrounds.
+To see how spatial joins work in ArcGIS Online, you'll practice by joining the State Boundaries feature class to the Campgrounds feature class.
 
 ### Step 1: Add Relevant Data to the Map Viewer Classic
 
@@ -164,8 +168,8 @@ Begin by adding State Boundaries and Campgrounds to the Map Viewer Classic.
 Next, navigate to the join features tool and configure the parameters in order to join State Boundaries to Campgrounds.
 
 In contrast to the parameters for performing a **table join**, you will need to make two important changes to perform a **spatial join**:
-1. Set the join type to "choose a spatial relationship"
-2. Change to join operation from join one to one to join one to many
+1. Set the join type to "choose a spatial relationship."
+2. Change to join operation from join one to one to join one to many.
    - Leaving the join operation as join one to one would append the information for each feature in the join layer (State Boundaries) to **a single feature** in the target layer (Campgrounds) that meets the criteria of the defined spatial relationship and is first in the defined ranking criteria. In contrast, performing a one to many join will append information for each feature in the join layer (State Boundaries) to **every feature** in the target layer (Campgrounds) that meet the criteria of the defined spatial relationship.
 
 To join State Boundaries to Campgrounds, configure the parameters for join features so that State Boundaires is joined to Campgrounds using a one-to-many spatial join. In this case, the spatial join subtype will need to be set to capture any campgrounds within each state (meaning you can choose intersect or completely within because no points exist on state borders). **Additionally, be sure to zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
@@ -193,5 +197,7 @@ You can also see how your data has changed by adjusting the style of the ouput f
 Congratulations! You have successfully completed a spatial join using ArcGIS Online. Time to put your new skills to work in the following practice problem:
 
 Using the Campgrounds feature layer and the Administrative Forest Boundaries feature layer, create a map that displays all federal campgrounds and helps the viewer identify which United States Forest Service Region each campground is located in.
+
+If needed, you can find a sample workflow to solve this problem [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#spatial-join-practice-problem).
 
 [<<< Previous](Part3.md) | [Next >>>](Part5.md)  
