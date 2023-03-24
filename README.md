@@ -22,11 +22,11 @@ After completing this workshop, you will be able to:
 
 ## Table of Contents
 
-1. [Part 1: Geospatial Analysis - An Overview]()
-2. [Part 2: Data Preperation]()
-3. [Part 3: Working with Vector Data]()
-4. [Part 4: Working with Joins]()
-5. [Part 5: Practicum]()
-6. [Part 6: Resources]()
+1. [Part 1: Geospatial Analysis - An Overview](Sections/Part1.md)
+2. [Part 2: Data Preperation](Sections/Part2.md)
+3. [Part 3: Working with Vector Data](Sections/Part3.md)
+4. [Part 4: Working with Joins](Sections/Part4.md)
+5. [Part 5: Practicum](Sections/Part5.md)
+6. [Part 6: Resources](Sections/Part6.md)
 
 [Get Started >>>](Sections/Part1.md)
