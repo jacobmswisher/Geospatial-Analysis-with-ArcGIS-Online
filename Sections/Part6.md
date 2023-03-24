@@ -10,4 +10,14 @@ To further explore or troubleshoot issues in ArcGIS Online, consider taking adva
 
 [The Navari Family Center for Digital Scholarship](https://cds.library.nd.edu/) - you can always stop by the CDS if you need help working on a GIS project. If someone at the CDS can't help, they will know who to connect you with on campus.
 
+## Sample Workflows for Practice Problems
+
+### Vector Data Practice Problem
+
+### Table Join Practice Problem
+
+### Spatial Join Practice Problem
+
+### Practicum
+
 [<<< Previous](Part5.md)
