@@ -45,7 +45,7 @@ Begin by adding the Campground_Agency_Information table and the Campgrounds feat
 Next, navigate to the join features tool in the summarize data section of the analysis tab.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2034.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/774f02f5e1f623ab221ae4089066e81362dfb5db/Sections/Images/Figure%2034.jpg">
 </p>
 
 When using the join features tool, you will need to set parameters for:
@@ -88,7 +88,7 @@ When using the join features tool, you will need to set parameters for:
 To join Campgrounds_Agency_Information to Campgrounds, configure the parameters for join features so that Campground_Agency_Information is joined to Campgrounds using a one-to-one table join. In this case, the key field for the table join is the name of each site in Campgrounds. **Zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2035.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/774f02f5e1f623ab221ae4089066e81362dfb5db/Sections/Images/Figure%2035.jpg">
 </p>
 
 ### Step 3: Join Campgrounds_Agency_Information to Campgrounds
@@ -171,7 +171,7 @@ In contrast to the parameters for performing a **table join**, you will need to 
 To join State Boundaries to Campgrounds, configure the parameters for join features so that State Boundaires is joined to Campgrounds using a one-to-many spatial join. In this case, the spatial join subtype will need to be set to capture any campgrounds within each state (meaning you can choose intersect or completely within because no points exist on state borders). **Additionally, be sure to zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2040.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/774f02f5e1f623ab221ae4089066e81362dfb5db/Sections/Images/Figure%2040.jpg">
 </p>
 
 ### Step 3: Join State Boundaries to Campgrounds
