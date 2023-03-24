@@ -2,16 +2,16 @@
 
 # Part 3: Operations for Working with Vector Data
 
-Now that you have learned about how geospatial analysis works and imported all of the data for this workshop into ArcGIS Online, it's time to familiarize yourself with a few commonly used operations for working with vector data ([head here for a refresher on spatial data types](https://github.com/jacobmswisher/Mapping-with-ArcGIS-Online/blob/main/Sections/Part1.md))
+Now that you have learned about how geospatial analysis works and imported all of the data for this workshop into ArcGIS Online, it's time to familiarize yourself with a few commonly used operations for working with vector data ([head here for a refresher on spatial data types](https://github.com/jacobmswisher/Mapping-with-ArcGIS-Online/blob/main/Sections/Part1.md)).
 
-In this section, you will learn about and practice using three common operations available with ArcGIS Online:
+In this section, you will learn how to use three common operations available with ArcGIS Online:
 1. Create Buffers
 2. Extract Data
 3. Overlay Layers
 
 ## Operation 1: Create Buffers
 
-The create buffers tool creates a feature class composed of polygons that represent the area between input features and a defined distance. You can create buffers for feature classes with point, line, and polygon geometry.
+The create buffers tool creates a feature class composed of polygons that represent the area between features in an input feature layer and a distance defined by the user. You can create buffers for feature classes with point, line, and polygon geometry.
 
 Create buffers uses the following workflow:
 
@@ -33,19 +33,19 @@ To get started, begin by adding the South Bend feature class to a new map using 
 
 ### Step 2: Define Buffer Parameters in the Analysis Tab
 
-You can access buffer and other operations for geospatial analysis in the analysis tab of the Map View Classic. Begin by clicking on the analysis tab.
+You can access create buffers and other operations for geospatial analysis in the analysis tab of the Map View Classic. Begin by clicking on the analysis tab.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/637f9d324c474b02c48eaf494540a5ee94fe127c/Sections/Images/Figure%209.jpg">
 </p>
 
-Then, navigate to the Use Proximity section of the analysis tab and select Create Buffers.
+Then, navigate to the use proximity section of the analysis tab and select create buffers.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2010.jpg">
 </p>
 
-Whenever you use an analysis tool to perform an operation in ArcGIS Online, the platform will ask you to define a series of **parameters** that provide instructions for the operation.
+Whenever you use an analysis tool to perform an operation in ArcGIS Online, the platform will ask you to define a series of **parameters** that provide ArcGIS Online with instructions for the operation.
 
 **Parameter - a specified condition that dictates how an operation is performed.**
 
@@ -64,15 +64,15 @@ In the case of the create buffers tool, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Input Layer</td>
-    <td>The feature class from which ArcGIS Online will create the buffers.</td>
+    <td align="center">The feature class from which ArcGIS Online will create the buffers.</td>
   </tr>
   <tr>
     <td align="center">Buffer Size</td>
-    <td>the distance that will be used to measure the space in between the features in the input layer the edge of the buffers.</td>
+    <td align="center">The distance that will be used to measure the space in between the features in the input layer the outer edge of each buffer.</td>
   </tr>
   <tr>
     <td align="center">Output (Result) Layer Name</td>
-    <td>The name of the new feature class containing polygons representing the buffers.</td>
+    <td align="center">The name of the new feature class containing polygons representing the buffers.</td>
   </tr>
 </table>
 
