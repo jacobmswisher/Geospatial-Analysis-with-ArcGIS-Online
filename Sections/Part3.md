@@ -71,12 +71,12 @@ In the case of the create buffers tool, you will need to set parameters for:
     <td>The distance that will be used to measure the space in between the features in the input layer the outer edge of each buffer.</td>
   </tr>
   <tr>
-    <td align="center">Output (Result) Layer Name</td>
+    <td align="center">Result Layer Name</td>
     <td>The name of the new feature class containing polygons representing the buffers.</td>
   </tr>
 </table>
 
-**Note: Some tools include optional parameters. In this case, ArcGIS Online provides you an option to control the geometry of output features when creating a buffer from a feature class with point geometry. Selecting overlap (the default) creates a separate buffer for each input feature while selecting dissolve creates a multipart feature that dissolves separte buffers into a single polygon. When in doubt, the blue info circle can help you determine how selecting specific options will change the output from an operation.**
+**Note: Some tools include optional parameters. In create buffers, ArcGIS Online provides you with an option to control the geometry of output features when creating a buffer from a feature class with point geometry. Selecting overlap (the default) creates a separate buffer for each input feature while selecting dissolve creates a multipart feature that dissolves separte buffers into a single polygon. When in doubt, the blue info circle can help you determine how selecting specific options will change the output from an operation.**
 
 Adjust the parameters for the create buffers tool as needed to instruct ArcGIS Online to create a 100-mile buffer around the point representing the city of South Bend.
 
@@ -108,11 +108,11 @@ Once ArcGIS Online has finished creating a buffer from the input feature class, 
 
 ## Operation 2: Extract Data
 
-Extract data is a tool that allows users to extract a subset of features from an input feature class and create a new output of those extracted features. 
+Extract data is a tool that allows users to extract a subset of features from an input feature class and create a new output feature class composed of the extracted features. 
 
 In this section, you will learn how to exract data using two methods:
-1. By extracting features based on information in the attribute table with the help of the filters tool
-2. By extracting features based on a spatial relationship between the input feature class and a second feature class
+1. By extracting features based on information in the attribute table with the help of the filters tool.
+2. By extracting features based on a spatial relationship between the input feature class and a second feature class.
 
 ## Method 1: Extract Data with Filters
 
@@ -122,23 +122,23 @@ Extracting data with the help of the filters tool uses the following workflow:
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2016.jpg">
 </p>
 
-To learn more about how extract data works with filters, you'll practice by creating a feature class with a single representing the state of Indiana from the State_Boundaries feature class.
+To learn more about how extract data works with filters, you'll practice by creating a feature class with a single feature representing the state of Indiana from the State Boundaries feature class.
 
 ### Step 1: Add Relevant Data to Map Viewer Classic
 
-To get started, begin by adding the State_Boundaries feature class to the Map Viewer Classic.
+To get started, begin by adding State Boundaries to the Map Viewer Classic.
 
 ### Step 2: Apply Filter to Input Feature Class
 
-When using filters to create a new feature class with extract data you will need to apply a filter to your input feature class with criteria to select all of the feature you want to appear in the output feature class after running the extract data tool.
+When using filters to create a new feature class with extract data you will need to apply a filter to your input feature class with criteria to select all of the features you want to appear in the output feature class after running the extract data tool.
 
-In this case, we'll apply a filter to select the state of Indiana from the State_Boundaries feature class. You can access filters via the content tab in Map Viewer Classic.
+In this case, you'll apply a filter to select the state of Indiana from the State Boundaries feature class. You can access filters via the content tab in Map Viewer Classic.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2017.jpg">
 </p>
 
-Configure a filter that will select Indiana from the State_Boundaries feature class. Then, apply the filter.
+Configure a filter that will select Indiana from the State Boundaries feature class. Then, apply the filter.
 
 **If you need a refresher on how filters work in ArcGIS Online, head [here](https://github.com/jacobmswisher/Mapping-with-ArcGIS-Online/blob/main/Sections/Part5.md)**
 
@@ -146,7 +146,7 @@ Configure a filter that will select Indiana from the State_Boundaries feature cl
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2018.jpg">
 </p>
 
-After filtering State_Boundaries for Indiana, your map viewer should look like this:
+After filtering State Boundaries for Indiana, your map viewer should look like this:
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2019.jpg">
@@ -154,7 +154,7 @@ After filtering State_Boundaries for Indiana, your map viewer should look like t
 
 ### Step 3: Set Parameters for Extract Data Tool
 
-Now that you have filtered State_Boundaries to select the feature representing Indiana, head to the analysis tab and select the extract data tool under the manage data section of the tab.
+Now that you have filtered State Boundaries to select the feature representing Indiana, head to the analysis tab and select the extract data tool in the manage data section.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2020.jpg">
@@ -173,19 +173,19 @@ To use extract data, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Study Area</td>
-    <td>Extract data will only extract features within the study area.<br>*When using the filters method set the study area to be the same as the input layer.<br><b>Note: you will almost always use the select features setting in defining the study area parameters (more on clip features below in the Overlay Layers section of the  workshop).<b></td>
+    <td>Extract data will only extract features within the study area. When using the filters method set the study area to be the same as the input layer.<br><br><b>Note: you will almost always use the select features setting in defining the study area parameters (more on why analysts avoid using clip features below in the Overlay Layers section of the  workshop).<b></td>
   </tr>
   <tr>
     <td align="center">Output Data Format</td>
     <td>This allows you to control the file format of the output containing the extracted features.</td>
   </tr>
   <tr>
-    <td align="center">Output (Result) File Name</td>
+    <td align="center">Result File Name</td>
     <td>The name of the new file containing the extracted features.</td>
   </tr>
 </table>
 
-To create a feature class containing the state of Indiana, adjust the parameters for the extract data tool to instruct ArcGIS Online to extract all features from State_Boundaries that are within a study area defined by State_Boundaries. Output the new feature class in the format of a shapefile.
+To create a feature class containing the state of Indiana, adjust the parameters for the extract data tool to instruct ArcGIS Online to extract all features from State Boundaries that are within a study area defined by State Boundaries. **Output the new feature class in the format of a shapefile.**
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2021.jpg">
