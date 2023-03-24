@@ -2,15 +2,15 @@
 
 # Part 4: Using Joins
 
-Now that you have learned how use three operations to work with features in vector datasets, it's time to learn about using joins (an operation that allows you to manipulate attribute tables in vector datasets).
+Now that you have learned how use three common operations for working with features in vector datasets, it's time to learn about using joins. Joins will allow you to manipulate attribute tables in vector datasets.
 
 ## What are Joins?
 
-A join is an operation that appends (joins) information in the attribute table of one dataset (the join dataset) to the attribute table of another dataset (the target dataset).
+A **join** is an operation that appends (joins) information in the attribute table of one dataset (the join dataset) to the attribute table of another dataset (the target dataset).
 
 In ArcGIS Online, you can perform two types of joins:
-1. A **table join** - appends information from a **table** (either a standalone table or attribute table) to a the attribute table of **feature class** based on a relationship between both tables
-2. A **spatial join** - appends information from the attribute table of one **feature class** to the attribute table of another **feature class** based on a spatial relationship between the features in both feature classes
+1. A **table join** - appends information from a **table** (either a standalone table or feature class attribute table) to a the attribute table of a **feature class** based on a **relationship between both tables**.
+2. A **spatial join** - appends information from the attribute table of one **feature class** to the attribute table of another **feature class** based on a **spatial relationship** between the features in both feature classes.
 
 In this part of the workshop, you will learn how to perform both types of join operations using ArcGIS Online.
 
@@ -24,9 +24,9 @@ Table joins use the following workflow:
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2032.jpg">
 </p>
 
-To join information from the table and feature class, the table join operations relies on the presence of a **key field**.
+To join information from the table and feature class, the table join operation relies on the presence of a **key field**.
 
-**Key field - a common field present in both the target and join datasets.**
+**Key field - a common field present in the tables of both the target and join datasets.**
 
 For example, analysts often use a common name or id field to join two datasets together. In this example, ID serves as the **key field** to join a list of addresses to a list of grocery stores in South Bend.
 
@@ -34,11 +34,11 @@ For example, analysts often use a common name or id field to join two datasets t
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2033.jpg">
 </p>
 
-To see how table joins work in ArcGIS Online, you'll practice by joining the information in Campground_Agency_Information.csv to Campgrounds.shp.
+To see how table joins work in ArcGIS Online, you'll practice by joining the information in Campground Agency Information table to the Campgrounds feature class.
 
 ### Step 1: Add Relevant Data to the Map Viewer Classic
 
-Begin by adding the Campground_Agency_Information table and the Campgrounds feature layer to the Map View Classic.
+Begin by adding the Campground Agency Information table and the Campgrounds feature class to the Map Viewer Classic.
 
 ### Step 2: Define Join Parameters in the Analysis Tab
 
@@ -61,18 +61,18 @@ When using the join features tool, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Join Layer</td>
-    <td>The dataset containing the information to be appended to the target layer. <i>Join layers can be feature layers or tables<i></td>
+    <td>The dataset containing the information to be appended to the target layer. <b>Join layers can be feature layers or tables</b></td>
   </tr>
   <tr>
     <td align="center">Join Type</td>
-    <td>Identifies whether the operation is a table join ("choose the fields to match") or a spatial join ("choose a spatial relationship").</td>
+    <td>Identifies whether the operation is a <b>table join</b> ("choose the fields to match") or a <b>spatial join</b> ("choose a spatial relationship").</td>
   </tr>
   <tr>
     <td align="center">Join Operation</td>
-    <td>Defines how the the join layer is appended to the target layer.<br><br>Join one to one matches each record in the join layer to a single record in the target    layer while join one to many matches each record in the join layer to every matching record in the target layer.<br><br>Join one to many is commonly used in spatial joins but can be used with table joins too (ex. joining a list of states to campgrounds where each campground has a state id field which means that many campground records would have a common value in the state id field).<br><br>Define which record is kept allows you to control the join in cases when multiple records in the join layer would be joined to a single record in the target layer.<br><br>Keep all target features allows you to control which features appear in the output feature class. <b>Check this box if you want to keep all features in the target layer even if not all target layer features would recieve appended information via the join layer.<b></td>
+    <td>Defines how the the join layer is appended to the target layer.<br><br><b>Join one to one</b> matches each record in the join layer to a single record in the target layer while <b>join one to many</b> matches each record in the join layer to every matching record in the target layer.<br><br><b>Join one to many</b> is commonly used in spatial joins but can be used with table joins too (ex. joining a list of states to campgrounds where each campground has a state id field which means that many campground records would have a common value in the state id field).<br><br><b>Define which record is kept<b> allows you to control the join in cases when multiple records in one layer would be joined to a single record in the the other layer.<br><br><b>Keep all target features</b> allows you to control which features appear in the output feature class. Check this box if you want to keep all features in the target layer even if not all target layer features would recieve appended information via the join layer.</td>
   </tr>
   <tr>
-    <td align="center">Output (Result) Layer Name</td>
+    <td align="center">Result Layer Name</td>
     <td>The name of the new feature class containing the joined features.</td>
   </tr>
   <tr>
@@ -81,7 +81,7 @@ When using the join features tool, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Output Layer Type</td>
-    <td>Allows you to create the output as a hosted feature layer. Hosted feature layers are read-only but will automatically be updated if any information in the source data changes. This is useful if you intend to regularly update data for public consumption by making changes to the join layer.</td>
+    <td>Allows you to create the output as a hosted feature layer. Hosted feature layers are read-only but will automatically be updated if any information in the source data changes. This is useful if you intend to regularly update data for public consumption by making changes to the join table or feature class.</td>
   </tr>
 </table>
 
