@@ -193,7 +193,7 @@ To create a feature class containing the state of Indiana, adjust the parameters
 
 ### Step 4: Extract Data
 
-After defining the parameters to extract Indiana from the State_Boundaries feature class, click the run analysis button.
+After defining the parameters to extract Indiana from the State Boundaries feature class, click the run analysis button.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2022.jpg">
@@ -225,7 +225,7 @@ After creating a new feature layer from the downloaded shapefile, add the new fe
 
 ## Method 2: Extract Data with Spatial Relationships
 
-Extract data can also be used to extract features from an input feature class based on a spatial relationship defined via parameters.
+Extract data can also be used to extract features from an input feature class based on a spatial relationship defined defined through parameters.
 
 Extracting data through a spatial relationship uses the following workflow:
 
@@ -237,13 +237,13 @@ To learn how to extract data using spatial relationships, we will use the 100-mi
 
 ### Step 1: Add Relevant Data to Map Viewer Classic
 
-To get started, add State_Boundaries and the 100-mile buffer of South Bend feature classes to the Map View Classic.
+To get started, add State Boundaries and the 100-mile buffer of South Bend to the Map View Classic.
 
 ### Step 2: Set Parameters for Extract Data Tool
 
 Then, navigate to the extract data tool in the analysis tab. When extracting data based on spatial relationships, the only step in defining the parameters for the extract data tool that differs from the filters method is **Step 2: Define the Study Area**.
 
-In this case, we want to extract the states from State_Boundaries that are within 100 miles of South Bend. Therefore, the "Study Area" for this operation needs to be a feature representing the area for a 100 mile buffer from South Bend (just like the one you created earlier!).
+In this case, we want to extract the states from State Boundaries that are within 100 miles of South Bend. Therefore, the study area for this operation needs to be a feature representing the area for a 100-mile buffer from South Bend (just like the one you created earlier!).
 
 Adjust the parameters for the extract data tool as needed to create a new feature class containing the states that are within 100 miles of South Bend.
 
@@ -251,7 +251,7 @@ Adjust the parameters for the extract data tool as needed to create a new featur
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2026.jpg">
 </p>
 
-**Note: Employ the select features option here. Using clip features will extract *only* the portions of the states that are within the buffer area rather than extracting the entire feature representing each state. In the remainder of the workshop, you will learn how to accomplish this task using the Overlay Layers tool which is the preferred method for this operation.**
+**Note: Employ the select features option here. Using clip features will extract *only* the parts of the states that are within the buffer area rather than extracting the entire feature representing each state. In the remainder of the workshop, you will learn how to accomplish this task using the Overlay Layers tool which is the preferred method for this operation.**
 
 ### Step 3: Extract Data
 
@@ -263,7 +263,7 @@ Then, download the extracted shapefile and upload the output feature class as a 
 
 ### Step 5: View Output Feature Class
 
-Finally, take a look at your output layer in the map view. You will notice that ArcGIS Online has identified all states within the buffer area, even if the only are barely within 100 miles of South Bend as in the case of Wisconsin.
+Finally, take a look at your output layer in the map view. You will notice that ArcGIS Online has identified all states that overlap with the buffer area, even if they only are barely within 100 miles of South Bend as in the case of Wisconsin.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2027.jpg">
@@ -273,7 +273,7 @@ Finally, take a look at your output layer in the map view. You will notice that 
 
 Overlay layers is a tool that allows users to create a new feature class based on a defined relationship (interesect, erase, or union) between an input layer and an overlay layer. 
 
-Overlay Layers uses the following workflow:
+Overlay layers uses the following workflow:
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2028.jpg">
@@ -285,11 +285,11 @@ In this section, you'll learn how to use overlay layers to create a feature repr
 
 ### Step 1: Add Relevant Data to Map Viewer Classic
 
-To get started, add the feature classes you created representing Indiana and the 100-mile buffer of South Bend feature classes to the Map View Classic.
+To get started, add the feature classes you created representing Indiana and the 100-mile buffer of South Bend to the Map Viewer Classic.
 
 ### Step 2: Set Parameters for Overlay Layers Tool
 
-Then, navigate to the overlay layers tool in the analysis tab. 
+Then, navigate to the overlay layers tool in the manage data section of the analysis tab. 
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2029.jpg">
@@ -311,7 +311,7 @@ To use overlay layers, you will need to set parameters for:
     <td>This is the layer that provides the feautres used to determine what happens to overlapping features from the input layer based on the overlay method.</td>
   </tr>
   <tr>
-    <td align="center"><Overlay Method/td>
+    <td align="center">Overlay Method</td>
     <td>Defines how features in the intput layer are transformed.<br>There are three overlay methods available in ArcGIS Online:<br>1. Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>2. Erase: creates a layer containing only features (or portions of features) that <b>do not<b> overlap with the overlay layer.<br>3. Union: Creates a layer containing features that are combinations of overlapping features in the input and overlay layers.</td>
   </tr>
   <tr>
