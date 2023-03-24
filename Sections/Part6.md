@@ -8,7 +8,11 @@ To further explore or troubleshoot issues in ArcGIS Online, consider taking adva
 
 [Stack Exchange](https://gis.stackexchange.com/) - excellent second source for issues you are struggling to address with ESRI's resources.
 
-[The Navari Family Center for Digital Scholarship](https://cds.library.nd.edu/) - you can always stop by the CDS if you need help working on a GIS project. If someone at the CDS can't help, they will know who to connect you with on campus.
+Campus GIS Connections
+- [Hesburgh Libraries Maps LibGuide](https://libguides.library.nd.edu/maps)
+- [Navari Family Center for Digital Scholarship](https://cds.library.nd.edu/)
+- [Lucy Family Institute for Data and Society](https://lucyinstitute.nd.edu/)
+- [Notre Dame Enterprise GIS](https://gis.nd.edu/)
 
 ## Sample Workflows for Practice Problems
 
