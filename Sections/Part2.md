@@ -1,8 +1,8 @@
 [<<< Previous](Part1.md) | [Next >>>](Part3.md)  
 
-# Part 2: Data Preperation
+# Part 2: Data Preparation
 
-Before you learn more about how to conduct geospatial analysis in ArcGIS Online, you will need to import the data for this workshop into your [**Content**](https://www.arcgis.com/home/content.html) in ArcGIS Online.
+Before you learn more about how to conduct geospatial analysis in ArcGIS Online, you will need to import the data for this workshop into [**your Content**](https://www.arcgis.com/home/content.html) in ArcGIS Online.
 
 ## Step 1: Import Data into ArcGIS Online
 
@@ -24,7 +24,7 @@ If you need a refresher on uploading data to ArcGIS Online, please consult [the 
 Note: You will need to instruct ArcGIS Online on how you want to import the csv files for this workshop because csv files can be used to create feature layers with point geometry. **All csv files for this workshop are intended to be used as tables.** To import each csv as a table, select the following option during the location settings configuration step of the new item creation process in the content tab:
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/b2932ea1054597cf0ec6b9c6ded74176f1f4e97c/Sections/Images/Figure%206.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/87bb9ebe4a6c3b62657c053ed76fae013a3ca3b0/Sections/Images/Figure%206.jpg">
 </p>
 
 [<<< Previous](Part1.md) | [Next >>>](Part3.md)  
