@@ -19,6 +19,6 @@ You are a GIS specialist who has contracted with a local restaurateur who is try
 
 Additionally, the business partners will want to know which county each site is in so that they can assess the tax implications of opening a new restaurant for each possible site. The restaurateur would like the map you create of possible sites to symbolize (color) each site based on the county in which it is located.
 
-If needed, you can find a sample workflow to solve this problem [here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#practicum).
+If needed, view a [sample workflow](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Part6.md#practicum) to solve this problem.
 
 [<<< Previous](Part4.md) | [Next >>>](Part6.md)
