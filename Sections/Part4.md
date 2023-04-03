@@ -9,7 +9,7 @@ Now that you have learned how use three common operations for working with featu
 A **join** is an operation that appends (joins) information in the attribute table of one dataset (the join dataset) to the attribute table of another dataset (the target dataset).
 
 In ArcGIS Online, you can perform two types of joins:
-1. A **table join** - appends information from a **table** (either a standalone table or feature class attribute table) to a the attribute table of a **feature class** based on a **relationship between both tables**.
+1. A **table join** - appends information from a **table** (either a standalone table or feature class attribute table) to the attribute table of a **feature class** based on a **relationship between both tables**.
 2. A **spatial join** - appends information from the attribute table of one **feature class** to the attribute table of another **feature class** based on a **spatial relationship** between the features in both feature classes.
 
 In this part of the workshop, you will learn how to perform both types of join operations using ArcGIS Online.
