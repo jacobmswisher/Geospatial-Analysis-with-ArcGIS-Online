@@ -67,8 +67,8 @@ In the case of the create buffers tool, you will need to set parameters for:
     <td>The feature class from which ArcGIS Online will create the buffers.</td>
   </tr>
   <tr>
-    <td align="center">Buffer Size</td>
-    <td>The distance that will be used to measure the space in between the features in the input layer the outer edge of each buffer.</td>
+    <td align="center">Buffer Setting</td>
+    <td>These settings identify distance that will be used to measure the space in between the features in the input layer the outer edge of each buffer. Distance can be defined as a value entered by the user or as the value present in a field in the input layer's attribute table.</td>
   </tr>
   <tr>
     <td align="center">Result Layer Name</td>
@@ -76,7 +76,7 @@ In the case of the create buffers tool, you will need to set parameters for:
   </tr>
 </table>
 
-**Note: Some tools include optional parameters. In create buffers, ArcGIS Online provides you with an option to control the geometry of output features when creating a buffer from a feature class with point geometry. Selecting overlap (the default) creates a separate buffer for each input feature while selecting dissolve creates a multipart feature that dissolves separte buffers into a single polygon. When in doubt, the blue info circle can help you determine how selecting specific options will change the output from an operation.**
+**Note: Some tools include optional parameters. In create buffers, ArcGIS Online provides you with an option to control the geometry of output features when creating a buffer called the Overlap Policy. Selecting overlap (the default) creates a separate buffer for each input feature while selecting dissolve creates a multipart feature that dissolves separte buffers into a single polygon. When in doubt, the blue info circle can help you determine how selecting specific options will change the output from an operation.**
 
 Adjust the parameters for the create buffers tool as needed to instruct ArcGIS Online to create a 100-mile buffer around the point representing the city of South Bend.
 
