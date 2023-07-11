@@ -295,21 +295,22 @@ To use overlay layers, you will need to set parameters for:
     <th>Description</th>
   </tr>
   <tr>
-    <td align="center">Input Layer</td>
+    <td align="center">Input Features</td>
     <td>This is the layer that contains the features you want to create a new feature class from.</td>
   </tr>
   <tr>
-    <td align="center">Overlay Layer</td>
+    <td align="center">Overlay Features</td>
     <td>This is the layer used to determine what happens to features from the input layer based on <b>(1)</b> the overlay method and <b>(2)</b> how the input layer features overlap with features in the overlay layer.</td>
   </tr>
   <tr>
-    <td align="center">Overlay Method</td>
-    <td>Defines how features in the intput layer are transformed.<br><br>There are three overlay methods available in ArcGIS Online:<br>
+    <td align="center">Overlay Settings</td>
+    <td>Defines how features in the intput layer are transformed.<br><br>There are three overlay types available in ArcGIS Online:<br>
       <ol>
         <li>Intersect: creates a layer containing only features (or portions of features) that overlap with the overlay layer.<br>
         <li>Erase: creates a layer containing only features (or portions of features) that <b>do not</b> overlap with the overlay layer.
         <li>Union: creates a layer containing features that are combinations of overlapping features in the input and overlay layers.
       </ol>
+      <br>**Check that the output geometry matches the geometry of the input features.**
      </td>
   </tr>
   <tr>
