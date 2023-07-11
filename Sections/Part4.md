@@ -75,14 +75,6 @@ When using the join features tool, you will need to set parameters for:
     <td align="center">Result Layer Name</td>
     <td>The name of the new feature class containing the joined features.</td>
   </tr>
-  <tr>
-    <td align="center">Map Extent</td>
-    <td>If you do not uncheck the use current map extent option at the bottom of the tool pane, ArcGIS Online will only perform the join on features that are currently visible in the Map Viewer.</td>
-  </tr>
-  <tr>
-    <td align="center">Output Layer Type</td>
-    <td>Allows you to create the output as a hosted feature layer. Hosted feature layers are read-only but will automatically be updated if any information in the source data changes. This is useful if you intend to regularly update data for public consumption by making changes to the join table or feature class.</td>
-  </tr>
 </table>
 
 To join Campgrounds Agency Information to Campgrounds, configure the parameters for join features so that Campground Agency Information is joined to Campgrounds using a one-to-one table join. In this case, the key field for the table join is the name of each site in Campgrounds. 
