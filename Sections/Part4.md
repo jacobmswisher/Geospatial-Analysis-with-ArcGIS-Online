@@ -64,12 +64,16 @@ When using the join features tool, you will need to set parameters for:
     <td>The dataset containing the information to be appended to the target layer. <b>Join layers can be feature layers or tables</b></td>
   </tr>
   <tr>
-    <td align="center">Join Type</td>
+    <td align="center">Join Settings</td>
     <td>Identifies whether the operation is a <b>table join</b> ("use attribute relationship") or a <b>spatial join</b> ("use spatial relationship").</td>
   </tr>
   <tr>
     <td align="center">Join Operation</td>
     <td>Defines how the the join layer is appended to the target layer.<br><br><b>Join one to one</b> matches each record in the join layer to a single record in the target layer while <b>join one to many</b> matches each record in the join layer to every matching record in the target layer.<br><br><b>Join one to many</b> is commonly used in spatial joins but can be used with table joins too (ex. joining a list of states to campgrounds where each campground has a state id field which means that many campground records would have a common value in the state id field).<br><br><b>Define which record is kept</b> allows you to control the join in cases when multiple records in one layer would be joined to a single record in the the other layer.<br><br><b>Keep all target features</b> allows you to control which features appear in the output feature class. Check this box if you want to keep all features in the target layer even if not all target layer features would recieve appended information via the join layer.</td>
+  </tr>
+  <tr>
+    <td>Join Type</td>
+    <td>Allows you to control whether the output layer will include features from the join layer that do not match a record in the target layer attribute table (left join) or if those unmatched features should be discarded (inner join)</td>
   </tr>
   <tr>
     <td align="center">Result Layer Name</td>
