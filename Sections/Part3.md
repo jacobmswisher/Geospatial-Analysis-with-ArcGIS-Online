@@ -146,7 +146,7 @@ After filtering State Boundaries for Indiana, your map viewer should look like t
 
 ### Step 3: Set Parameters for Extract Data Tool
 
-Now that you have filtered State Boundaries to select the feature representing Indiana, head to the analysis tab and select the extract data tool in the manage data section.
+Now that you have filtered State Boundaries to select the feature representing Indiana, head to the analysis tab and select the extract data tool in the manage data section of the analysis tab.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2020.jpg">
