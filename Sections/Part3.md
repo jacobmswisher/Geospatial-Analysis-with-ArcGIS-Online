@@ -243,7 +243,7 @@ Adjust the parameters for the extract data tool as needed to create a new featur
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2026.jpg">
 </p>
 
-**Note: Employ the select features option here. Using clip features will extract *only* the parts of the states that are within the buffer area rather than extracting the entire feature representing each state. In the remainder of the workshop, you will learn how to accomplish this task using the Overlay Layers tool which is the preferred method for this operation.**
+**Note: Do not select the clip features setting here. Using clip features will extract *only* the parts of the states that are within the buffer area rather than extracting the entire feature representing each state. In the remainder of the workshop, you will learn how to accomplish this task using the Overlay Layers tool which is the preferred method for this operation.**
 
 ### Step 3: Extract Data
 
