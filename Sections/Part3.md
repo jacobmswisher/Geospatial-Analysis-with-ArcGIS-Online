@@ -314,7 +314,7 @@ To use overlay layers, you will need to set parameters for:
      </td>
   </tr>
   <tr>
-    <td align="center">Result Layer Name</td>
+    <td align="center">Output Name</td>
     <td>The name of the new feature layer containing the features created through the overlay.</td>
   </tr>
 </table>
