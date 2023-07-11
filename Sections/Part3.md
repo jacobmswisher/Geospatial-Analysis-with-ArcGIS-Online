@@ -310,7 +310,7 @@ To use overlay layers, you will need to set parameters for:
         <li>Erase: creates a layer containing only features (or portions of features) that <b>do not</b> overlap with the overlay layer.
         <li>Union: creates a layer containing features that are combinations of overlapping features in the input and overlay layers.
       </ol>
-      <br><b>Check that the output geometry matches the geometry of the input features.</b>
+      <b>Check that the output geometry matches the geometry of the input features.</b>
      </td>
   </tr>
   <tr>
