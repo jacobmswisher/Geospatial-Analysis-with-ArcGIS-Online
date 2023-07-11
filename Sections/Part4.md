@@ -65,7 +65,7 @@ When using the join features tool, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Join Type</td>
-    <td>Identifies whether the operation is a <b>table join</b> ("choose the fields to match") or a <b>spatial join</b> ("choose a spatial relationship").</td>
+    <td>Identifies whether the operation is a <b>table join</b> ("use attribute relationship") or a <b>spatial join</b> ("use spatial relationship").</td>
   </tr>
   <tr>
     <td align="center">Join Operation</td>
