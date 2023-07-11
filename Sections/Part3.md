@@ -134,17 +134,9 @@ When using filters to create a new feature class with extract data you will need
 
 In this case, you'll apply a filter to select the state of Indiana from the State Boundaries feature class. You can access filters via the content tab in Map Viewer Classic.
 
-<p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8cd6a442111a86199cf3dc34edaacfdfb3c47604/Sections/Images/Figure%2017.jpg">
-</p>
-
 Configure a filter that will select Indiana from the State Boundaries feature class. Then, apply the filter.
 
 **If you need a refresher on how filters work in ArcGIS Online, head [here](https://github.com/jacobmswisher/Mapping-with-ArcGIS-Online/blob/main/Sections/Part5.md)**
-
-<p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/8540f5d64c8a4a4efe4d77d47f27a4a2ece54aa9/Sections/Images/Figure%2018.jpg">
-</p>
 
 After filtering State Boundaries for Indiana, your map viewer should look like this:
 
