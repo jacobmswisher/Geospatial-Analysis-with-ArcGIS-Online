@@ -84,7 +84,8 @@ When using the join features tool, you will need to set parameters for:
 To join Campgrounds Agency Information to Campgrounds, configure the parameters for join features so that Campground Agency Information is joined to Campgrounds using a one-to-one table join. In this case, the key field for the table join is the name of each site in Campgrounds. 
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035a.jpg">
+  <br>
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035b.jpg">
 </p>
 
@@ -170,7 +171,8 @@ In contrast to the parameters for performing a **table join**, you will need to 
 To join State Boundaries to Campgrounds, configure the parameters for join features so that State Boundaires is joined to Campgrounds using a one-to-many spatial join. In this case, the spatial join subtype will need to be set to capture any campgrounds within each state (meaning you can choose intersect or completely within because no points exist on state borders). **Additionally, be sure to zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2040.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2040a.jpg">
+  <br>
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2040b.jpg">
 </p>
 
