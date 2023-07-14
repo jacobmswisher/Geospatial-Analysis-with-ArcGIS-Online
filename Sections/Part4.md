@@ -85,6 +85,7 @@ To join Campgrounds Agency Information to Campgrounds, configure the parameters 
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035b.jpg">
 </p>
 
 ### Step 3: Join Campgrounds Agency Information to Campgrounds
@@ -170,6 +171,7 @@ To join State Boundaries to Campgrounds, configure the parameters for join featu
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2040.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2040b.jpg">
 </p>
 
 ### Step 3: Join State Boundaries to Campgrounds
