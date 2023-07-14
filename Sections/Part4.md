@@ -21,7 +21,7 @@ Table joins append information from a table (usually in the form of a .csv file)
 Table joins use the following workflow:
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2032.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2032.jpg">
 </p>
 
 To join information from the table and feature class, the table join operation relies on the presence of a **key field**.
@@ -31,7 +31,7 @@ To join information from the table and feature class, the table join operation r
 For example, analysts often use a common name or id field to join two datasets together. In this example, ID serves as the **key field** to join a list of addresses to a list of grocery stores in South Bend.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2033.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2033.jpg">
 </p>
 
 To see how table joins work in ArcGIS Online, you'll practice by joining the information in Campground Agency Information table to the Campgrounds feature class.
@@ -45,7 +45,7 @@ Begin by adding the Campground Agency Information table and the Campgrounds feat
 Next, navigate to the join features tool in the summarize data section of the analysis tab.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/774f02f5e1f623ab221ae4089066e81362dfb5db/Sections/Images/Figure%2034.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2034.jpg">
 </p>
 
 When using the join features tool, you will need to set parameters for:
@@ -86,7 +86,7 @@ To join Campgrounds Agency Information to Campgrounds, configure the parameters 
 **Remember to zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/774f02f5e1f623ab221ae4089066e81362dfb5db/Sections/Images/Figure%2035.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035.jpg">
 </p>
 
 ### Step 3: Join Campgrounds Agency Information to Campgrounds
@@ -98,7 +98,7 @@ After configuring the parameters for the join layers tool, click the run analysi
 After the analysis runs, open up the attribute table for the ouput feature class containing the joined features. In the attribute table, you'll see that each record for an individual site in Campgrounds now has information for which agency (United States Forest Service or Bureau of Land Management) manages the campground.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2036.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2036.jpg">
 </p>
 
 ## Practice Scenario 1: Table Joins
@@ -118,7 +118,7 @@ Spatial joins append information from the attribute table of one feature class t
 Spatial joins use the following workflow:
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2037.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2037.jpg">
 </p>
 
 To join information from the join feature class to the target feature class, the spatial join operation uses one of the following spatial relationships defined by the user:
@@ -144,13 +144,13 @@ To join information from the join feature class to the target feature class, the
 For example, an analyst could identify all federal campgrounds in Montana by joining a feature class with state of Montana to a feature class containing all federal campgrounds. Doing so would attach the information from the feature representing Montana to all features in Campgrounds that have a spatial relationship of being completely within the feature representing Montana.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2038.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2038.jpg">
 </p>
 
 In this case, the join features tool would use a spatial relationship to append the information for the feature representing Montana to **every** point feature in the campgrounds feature class that intersects with the feature representing Montana. The result would allow the analyst to create a map showing which campgrounds are in Montana.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2039.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2039.jpg">
 </p>
 
 To see how spatial joins work in ArcGIS Online, you'll practice by joining the State Boundaries feature class to the Campgrounds feature class.
@@ -171,7 +171,7 @@ In contrast to the parameters for performing a **table join**, you will need to 
 To join State Boundaries to Campgrounds, configure the parameters for join features so that State Boundaires is joined to Campgrounds using a one-to-many spatial join. In this case, the spatial join subtype will need to be set to capture any campgrounds within each state (meaning you can choose intersect or completely within because no points exist on state borders). **Additionally, be sure to zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/774f02f5e1f623ab221ae4089066e81362dfb5db/Sections/Images/Figure%2040.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2040.jpg">
 </p>
 
 ### Step 3: Join State Boundaries to Campgrounds
@@ -185,7 +185,7 @@ To examine the results of the spatial join, open up the attribute table for the 
 You can also see how your data has changed by adjusting the style of the ouput feature class to symbolize campgrounds according to the state they are in.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/ca1defa7f166eaabee82f5425c0f77623e17ec05/Sections/Images/Figure%2041.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2041.jpg">
 </p>
 
 ## Practice Scenario 2: Spatial Joins
