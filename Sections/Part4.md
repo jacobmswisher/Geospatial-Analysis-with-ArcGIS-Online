@@ -83,11 +83,7 @@ When using the join features tool, you will need to set parameters for:
 
 To join Campgrounds Agency Information to Campgrounds, configure the parameters for join features so that Campground Agency Information is joined to Campgrounds using a one-to-one table join. In this case, the key field for the table join is the name of each site in Campgrounds. 
 
-**Remember to zoom out on the map viewer or uncheck the current map extent option at the bottom of the tool pane.**
-
-<p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035.jpg">
-</p>
+[You can view a screenshot of the correct parameters for this operation here](https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2035.jpg)
 
 ### Step 3: Join Campgrounds Agency Information to Campgrounds
 
