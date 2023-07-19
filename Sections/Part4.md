@@ -36,9 +36,9 @@ For example, analysts often use a common name or id field to join two datasets t
 
 To see how table joins work in ArcGIS Online, you'll practice by joining the information in Campground Agency Information table to the Campgrounds feature class.
 
-### Step 1: Add Relevant Data to the Map Viewer Classic
+### Step 1: Add Relevant Data to the Map Viewer
 
-Begin by adding the Campground Agency Information table and the Campgrounds feature class to the Map Viewer Classic.
+Begin by adding the Campground Agency Information table and the Campgrounds feature class to the Map Viewer.
 
 ### Step 2: Define Join Parameters in the Analysis Tab
 
@@ -155,9 +155,9 @@ In this case, the join features tool would use a spatial relationship to append 
 
 To see how spatial joins work in ArcGIS Online, you'll practice by joining the State Boundaries feature class to the Campgrounds feature class.
 
-### Step 1: Add Relevant Data to the Map Viewer Classic
+### Step 1: Add Relevant Data to the Map Viewer
 
-Begin by adding State Boundaries and Campgrounds to the Map Viewer Classic.
+Begin by adding State Boundaries and Campgrounds to the Map Viewer.
 
 ### Step 2: Define Join Parameters in the Analysis Tab
 
