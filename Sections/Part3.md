@@ -21,7 +21,7 @@ Create buffers uses the following workflow:
 
 To learn more about how create buffers works, you'll practice by creating a buffer from the South Bend feature class.
 
-### Step 1: Add Relevant Data to the Map Viewer Classic
+### Step 1: Add Relevant Data to the Map Viewer
 
 In this exercise, you are going to create a 100-mile buffer from a point representing the city of South Bend, Indiana.
 
@@ -124,7 +124,7 @@ Extracting data with the help of the filters tool uses the following workflow:
 
 To learn more about how extract data works with filters, you'll practice by creating a feature class with a single feature representing the state of Indiana from the State Boundaries feature class.
 
-### Step 1: Add Relevant Data to Map Viewer Classic
+### Step 1: Add Relevant Data to Map Viewer
 
 To get started, begin by adding State Boundaries to the Map Viewer Classic.
 
@@ -275,7 +275,7 @@ In this section, you'll learn how to use overlay layers to create a feature repr
 
 **Note: Although you will learn how to use overlay layers using feature classes with polygon geometry, overlay layers works with feature classes with point, line, or polygon geometry.**
 
-### Step 1: Add Relevant Data to Map Viewer Classic
+### Step 1: Add Relevant Data to Map Viewer
 
 To get started, add the feature classes you created representing Indiana and the 100-mile buffer of South Bend to the Map Viewer Classic.
 
