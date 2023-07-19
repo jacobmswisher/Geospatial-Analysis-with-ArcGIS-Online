@@ -25,7 +25,7 @@ To learn more about how create buffers works, you'll practice by creating a buff
 
 In this exercise, you are going to create a 100-mile buffer from a point representing the city of South Bend, Indiana.
 
-To get started, begin by adding the South Bend feature class to a new map using the add layer tool in Map Viewer Classic.
+To get started, begin by adding the South Bend feature class to a new map using the add layer tool in Map Viewer.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%208.jpg">
@@ -33,7 +33,7 @@ To get started, begin by adding the South Bend feature class to a new map using 
 
 ### Step 2: Define Buffer Parameters in the Analysis Tab
 
-You can access create buffers and other operations for geospatial analysis in the analysis tab of the Map View Classic. Begin by clicking on the analysis tab.
+You can access create buffers and other operations for geospatial analysis in the analysis tab of the Map Viewer. Begin by clicking on the analysis tab.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%209.jpg">
@@ -100,7 +100,7 @@ After defining the parameters to create the 100-mile buffer from the South Bend 
 
 ### Step 4: Examine the Output Feature Class
 
-Once ArcGIS Online has finished creating a buffer from the input feature class, the platform will immediately display the output feature class in the Map Viewer Classic. From here, you can view the buffer, look at the attribute table, or perform additional operations using the output layer in the analysis tab.
+Once ArcGIS Online has finished creating a buffer from the input feature class, the platform will immediately display the output feature class in the Map Viewer. From here, you can view the buffer, look at the attribute table, or perform additional operations using the output layer in the analysis tab.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2015.jpg">
@@ -126,13 +126,13 @@ To learn more about how extract data works with filters, you'll practice by crea
 
 ### Step 1: Add Relevant Data to Map Viewer
 
-To get started, begin by adding State Boundaries to the Map Viewer Classic.
+To get started, begin by adding State Boundaries to the Map Viewer.
 
 ### Step 2: Apply Filter to Input Feature Class
 
 When using filters to create a new feature class with extract data you will need to apply a filter to your input feature class with criteria to select all of the features you want to appear in the output feature class after running the extract data tool.
 
-In this case, you'll apply a filter to select the state of Indiana from the State Boundaries feature class. You can access filters via the content tab in Map Viewer Classic.
+In this case, you'll apply a filter to select the state of Indiana from the State Boundaries feature class. You can access filters via the content tab in Map Viewer.
 
 Configure a filter that will select Indiana from the State Boundaries feature class. Then, apply the filter.
 
@@ -227,9 +227,9 @@ Extracting data through a spatial relationship uses the following workflow:
 
 To learn how to extract data using spatial relationships, we will use the 100-mile buffer from earlier in the workshop to create a feature class of states that are within 100 miles of South Bend.
 
-### Step 1: Add Relevant Data to Map Viewer Classic
+### Step 1: Add Relevant Data to Map Viewer
 
-To get started, add State Boundaries and the 100-mile buffer of South Bend to the Map View Classic.
+To get started, add State Boundaries and the 100-mile buffer of South Bend to the Map Viewer.
 
 ### Step 2: Set Parameters for Extract Data Tool
 
@@ -277,7 +277,7 @@ In this section, you'll learn how to use overlay layers to create a feature repr
 
 ### Step 1: Add Relevant Data to Map Viewer
 
-To get started, add the feature classes you created representing Indiana and the 100-mile buffer of South Bend to the Map Viewer Classic.
+To get started, add the feature classes you created representing Indiana and the 100-mile buffer of South Bend to the Map Viewer.
 
 ### Step 2: Set Parameters for Overlay Layers Tool
 
@@ -333,7 +333,7 @@ Once you have configured the paramaters for the overlay layers tool, click the r
 
 ### Step 4: View Output Feature Class
 
-After running the analysis, ArcGIS Online will immediately add the output feature class to the Map Viewer Classic as a hosted feature layer.
+After running the analysis, ArcGIS Online will immediately add the output feature class to the Map Viewer as a hosted feature layer.
 
 Your output should look like this:
 
