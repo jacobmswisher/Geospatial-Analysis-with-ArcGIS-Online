@@ -49,7 +49,7 @@ Whenever you use an analysis tool to perform an operation in ArcGIS Online, the 
 
 **Parameter - a specified condition that dictates how an operation is performed.**
 
-ArcGIS Online will ask you to define parameters in a series of steps laid out in a pane on the left-hand side of your browser. For example, the options to set parameters for the create buffers tool look like this:
+ArcGIS Online will ask you to define parameters in a series of steps laid out in a pane on the right-hand side of your browser. For example, the options to set parameters for the create buffers tool look like this:
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2011.jpg">
