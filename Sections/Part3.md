@@ -165,7 +165,7 @@ To use extract data, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Extent Layer</td>
-    <td>Extract data will only extract features that are located within the geometry of the extent layer.<br><br>When using the filters method set the study area to be the same as the input layer.<br><br><b>Note: you will almost always use the select features setting in defining the study area parameters (more on why analysts avoid using clip features below in the Overlay Layers section of the  workshop).<b></td>
+    <td>xtract data will only extract features that are located within the geometry of the extent layer.<br><br>When extracting a layer with the help of the filter tool, do not specifify an extent layer.<br><br><b>Note: you will almost always use the select features setting in defining the study area parameters (more on why analysts avoid using clip features below in the Overlay Layers section of the  workshop).<b></td>
   </tr>
   <tr>
     <td align="center">Output Data Format</td>
