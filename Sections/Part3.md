@@ -341,7 +341,15 @@ Your output should look like this:
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2031.jpg">
 </p>
 
-**Note: You can also create this output using the clip features setting in the extract data tool. However, using the overlay layers tool saves time as you do not have to download an output shapefile and manually create a new feature layer.**
+### Step 5: Examine the Attribute Table
+
+After viewing your output feature class in the Map View, open up the the attribute table for the output feature class.
+
+<p align="center">
+  <img src="">
+</p>
+
+Notice that the attribute table for the output feature class includes the fields from both the input layer and the overlay layer. This is because when you run overlay layers using either intersect or union as the spatial relationship, the output includes all information from both overlapping features. **If you want to avoid adding information from the overlay layer to your output feature class, run the extract data tool instead.**
 
 ## Practice Scenario
 
