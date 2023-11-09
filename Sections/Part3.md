@@ -346,7 +346,7 @@ Your output should look like this:
 After viewing your output feature class in the Map View, open up the the attribute table for the output feature class.
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/a770c084acce4c0931fac9b4fd1accfe3f245c79/Sections/Images/Fig%2031a.jpg">
 </p>
 
 Notice that the attribute table for the output feature class includes the fields from both the input layer and the overlay layer. This is because when you run overlay layers using either intersect or union as the spatial relationship, the output includes all information from both overlapping features. 
