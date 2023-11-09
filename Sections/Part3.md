@@ -349,7 +349,9 @@ After viewing your output feature class in the Map View, open up the the attribu
   <img src="">
 </p>
 
-Notice that the attribute table for the output feature class includes the fields from both the input layer and the overlay layer. This is because when you run overlay layers using either intersect or union as the spatial relationship, the output includes all information from both overlapping features. **If you want to avoid adding information from the overlay layer to your output feature class, run the extract data tool instead.**
+Notice that the attribute table for the output feature class includes the fields from both the input layer and the overlay layer. This is because when you run overlay layers using either intersect or union as the spatial relationship, the output includes all information from both overlapping features. 
+
+**Note: If you want to avoid adding attribute information from the overlay layer to your output feature class, run the extract data tool using the clip features setting instead.**
 
 ## Practice Scenario
 
