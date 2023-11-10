@@ -251,9 +251,9 @@ Adjust the parameters for the extract data tool as needed to create a new featur
 
 Once you have configured the paramaters for the extract data tool, click the run analysis button.
 
-### Step 4: Upload Output Feature Class to ArcGIS Online
+### Step 4: Publish Output Feature Class
 
-Then, download the extracted shapefile and upload the output feature class as a new feature layer in ArcGIS Online
+Then, publish the extracted shapefile as a new feature layer in ArcGIS Online
 
 ### Step 5: View Output Feature Class
 
