@@ -165,7 +165,7 @@ To use extract data, you will need to set parameters for:
   </tr>
   <tr>
     <td align="center">Extent Layer</td>
-    <td>xtract data will only extract features that are located within the geometry of the extent layer.<br><br>When extracting a layer with the help of the filter tool, do not specifify an extent layer.<br><br><b>Note: you will almost always use the select features setting in defining the study area parameters (more on why analysts avoid using clip features below in the Overlay Layers section of the  workshop).<b></td>
+    <td>xtract data will only extract features that are located within the geometry of the extent layer.<br><br>When extracting a layer with the help of the filter tool, do not specifify an extent layer.</td>
   </tr>
   <tr>
     <td align="center">Output Data Format</td>
@@ -191,25 +191,27 @@ After defining the parameters to extract Indiana from the State Boundaries featu
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2022.jpg">
 </p>
 
-### Step 5: Upload Output Feature Class to ArcGIS Online
+### Step 5: Publish Output Feature Class
 
 After the analysis runs, ArcGIS Online will save the output feature class as a shapefile in the content tab. However, using extract data does not automatically host the new shapefile as a feature layer in ArcGIS Online (unlike with the create buffers tool).
 
-In order to work with your output feature class, you will need to download the shapefile and then create a new feature layer in the content tab.
+In order to work with your output feature class, you will need to publish the shapefile and then create a new feature layer in the content tab.
 
-Begin by finding the output feature class in your content tab and downloading the shapefile by clicking on the three-dot button on the right-hand side of the item.
+Begin by finding the output feature class in your content tab. Then, click the publish button on the right side of the browser.
 
 <p align="center">
-  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2023.jpg">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/51708f1a10a5fe9940a156a4adb0b203f12b512b/Sections/Images/Figure%2023a.jpg">
 </p>
 
-Then, create a new feature layer using the downloaded shapefile.
+Then, click save to create a new feature layer using the downloaded shapefile.
 
-**Note: Because the shapefile already exists in the content tab, you will need to rename the downloaded file before using it to create a new feature layer in ArcGIS Online.**
+<p align="center">
+  <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/51708f1a10a5fe9940a156a4adb0b203f12b512b/Sections/Images/Figure%2023b.jpg">
+</p>
 
 ### Step 6: View Output Feature Class
 
-After creating a new feature layer from the downloaded shapefile, add the new feature layer to the Map Viewer to examine and work with your extracted data.
+After publishing a new feature layer from the downloaded shapefile, add the new feature layer to the Map Viewer to examine and work with your extracted data.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2024.jpg">
