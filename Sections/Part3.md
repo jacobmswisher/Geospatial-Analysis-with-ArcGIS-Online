@@ -211,7 +211,7 @@ Then, click save to create a new feature layer using the downloaded shapefile.
 
 ### Step 6: View Output Feature Class
 
-After publishing a new feature layer from the downloaded shapefile, add the new feature layer to the Map Viewer to examine and work with your extracted data.
+After publishing a new feature layer from the extracted shapefile, add the new feature layer to the Map Viewer to examine and work with your extracted data.
 
 <p align="center">
   <img src="https://github.com/jacobmswisher/Geospatial-Analysis-with-ArcGIS-Online/blob/main/Sections/Images/Figure%2024.jpg">
